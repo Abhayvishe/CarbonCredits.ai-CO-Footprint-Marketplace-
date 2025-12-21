@@ -103,5 +103,39 @@ Future Enhancements
 
 
 
-## 📂 Project Structure  
+## 📂 Project Structure
+
+
+
+
+
+### Planned improvements (short-term & long-term)
+
+We plan to evolve the project across several axes to increase reliability, transparency, and usability:
+
+- Model & Data
+  - Add rigorous evaluation (MAE, RMSE, cross-validation) and baseline comparisons.
+  - Provide explainability (SHAP) and prediction uncertainty (prediction intervals).
+  - Improve data provenance and preprocessing pipelines.
+
+- Platform & DevOps
+  - Containerize the app with Docker and provide docker-compose for local testing.
+  - Add CI/CD with GitHub Actions (tests, linting, build).
+  - Introduce model & dataset versioning (MLflow/DVC) and monitoring for data drift.
+
+- Marketplace Features
+  - Replace CSVs with a transactional database (Postgres/SQLite) and a REST API (FastAPI).
+  - Add user authentication, seller verification, and an escrow/payment integration (Stripe).
+  - Implement audit trails and support uploads of certification documents for credits.
+
+- Trust & Verification
+  - Integrate with recognized carbon registries (e.g., Verra, Gold Standard) or allow attachment of verification docs.
+  - Implement MRV (Measurement, Reporting, Verification) workflow for sellers.
+
+- UX, Security & Scale
+  - Improve marketplace UX (search, filters, pagination) and accessibility.
+  - Add logging, monitoring (Prometheus/Grafana), and Sentry for error tracking.
+  - Plan for cloud deployment and horizontal scaling with caching (Redis).
+
+Contributions welcome — see CONTRIBUTING.md for how to help.
 
