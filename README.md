@@ -137,5 +137,5 @@ We plan to evolve the project across several axes to increase reliability, trans
   - Add logging, monitoring (Prometheus/Grafana), and Sentry for error tracking.
   - Plan for cloud deployment and horizontal scaling with caching (Redis).
 
-Contributions welcome — see CONTRIBUTING.md for how to help.
+Contributions welcome — see CONTRIBUTING.md for how to help..
 
