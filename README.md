@@ -76,7 +76,7 @@ Project Lifecycle: Data preprocessing → Model training → Deployment → Mark
 
 
 
-Future Enhancements
+Future Enhancements :
 
 📊 Live dashboards: visualize credits traded & CO₂ offsets in real-time
 
